@@ -34,7 +34,7 @@ def main():
         color: white !important; 
         font-family: 'Courier Prime' !important;
         position: fixed;
-        top: 1080px;
+        top: 360px;
         left: 400px; 
         } </style> """, unsafe_allow_html=True) 
     
