@@ -45,7 +45,7 @@ def main():
         font-family: 'Courier Prime', monospace !important;
         white-space: nowrap;
         pointer-events: none;
-        text-shadow: 1px 2px 6px rgba(0,0,0,0.7);
+        text-shadow: 0px 8px 20px rgba(0,0,0,0.7);
 
     }
     </style>
