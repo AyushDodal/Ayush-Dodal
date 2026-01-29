@@ -53,6 +53,44 @@ def main():
         text-shadow: 0px 8px 20px rgba(0,0,0,0.7);
 
     }
+
+
+
+
+
+    .about {
+        min-height: 100vh;
+        padding: 20vh 10vw;
+        color: white;
+        font-size: 48px;
+        opacity: 0;
+        transform: translateY(60px);
+        transition: all 0.8s ease-out;
+    }
+
+    .about.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    </style>
+
+    <script>
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+        });
+    }, { threshold: 0.3 });
+
+    window.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".about").forEach(el => observer.observe(el));
+    });
+    </script>
+
+
+
+    
     </style>
     """,
     unsafe_allow_html=True
@@ -68,6 +106,21 @@ def main():
     """,
     unsafe_allow_html=True
 )
+
+
+    st.markdown(
+    """
+    <div class="about">
+        <h2>About Me</h2>
+        <p>
+        AI Engineer focused on data, LLMs, and real-world systems.
+        I build things that actually ship.
+        </p>
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
 
     
     
