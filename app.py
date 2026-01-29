@@ -25,18 +25,13 @@ def main():
         opacity: 0.6;
     }
 
-    .hero::after {
-        content: "";
-        position: absolute;
-        inset: 0;
-        background: rgba(0,0,0,0.4);
-    }
+
 
 
     .hero-title {
         position: absolute;
         top: 25vh;
-        left: 10vw;
+        left: 5vw;
         font-size: clamp(48px, 8vw, 120px);
         color: white;
         font-weight: 700;
@@ -62,21 +57,7 @@ def main():
     
     
 
-    # TITLE
-    #st.title("Ayush Dodal") 
-    st.markdown( 
-        """ <style> 
-        @import url('https://fonts.cdnfonts.com/css/courier-prime'); 
-        .hero-title { 
-        white-space: wrap !important; 
-        font-size: 125px !important; 
-        font-weight: 700 !important; 
-        color: white !important; 
-        font-family: 'Courier Prime' !important;
-         
-        } </style> """, unsafe_allow_html=True) 
-    
-    st.markdown('<h1 class="hero-title", style="100vh">Ayush Dodal</h1>', unsafe_allow_html=True) 
+
 
 
 
