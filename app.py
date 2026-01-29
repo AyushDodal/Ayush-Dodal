@@ -10,7 +10,6 @@ def main():
           linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
           url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG");
         background-size: 50%;
-        backgorund-height: 100%
         background-position: center;
         background-repeat: no-repeat;
     }
