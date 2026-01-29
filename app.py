@@ -23,9 +23,8 @@ def main():
     }
 
     .hero img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+        width: 40vw;
+        height: auto;
         opacity: 0.5;
     }
 
