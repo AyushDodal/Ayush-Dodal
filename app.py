@@ -57,11 +57,12 @@ def main():
 
 
     .hero-about{
-    top: 120vh;
-    left: -350px;
-    color: white !important;
-    font-size: 90px !important;
-    text-shadow: 0px 8px 20px rgba(0,0,0,0.7);
+        position: absolute;
+        top: 120vh;
+        left: -350px;
+        color: white !important;
+        font-size: 90px !important;
+        text-shadow: 0px 8px 20px rgba(0,0,0,0.7);
     }
 
     </style>
