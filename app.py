@@ -18,6 +18,7 @@ def main():
         background-repeat: no-repeat;
         width: 70%;
         height: 200vh;
+        background:attachment: scroll;
          } 
         </style> """, unsafe_allow_html=True ) 
         
