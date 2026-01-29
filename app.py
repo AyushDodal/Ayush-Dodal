@@ -10,11 +10,11 @@ def main():
     """
     <style>
     .hero {
-        min-height: 120vh;
+        min-height: 200vh;
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        padding-top: 10vh;
+        padding-top: 0;
         position: relative;
     }
 
