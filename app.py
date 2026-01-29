@@ -20,7 +20,7 @@ def main():
 
     .hero img {
         width: 80vw;          /* controls horizontal size */
-        max-width: 600px;     /* cap for big screens */
+        max-width: 6000px;     /* cap for big screens */
         height: auto;
         opacity: 0.6;
     }
