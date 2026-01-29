@@ -13,9 +13,9 @@ def main():
         position: fixed;
         top: 0;
         left: 0;
-        height: 6px;
+        height: 10px;
         width: 100%;
-        background: lime;
+        background-color: black;
         transform-origin: left;
         transform: scaleX(0);
         z-index: 9999;
