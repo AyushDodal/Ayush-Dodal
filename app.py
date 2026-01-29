@@ -32,7 +32,7 @@ def main():
         color: white !important;
         font-family: 'Courier Prime' !important;
         position: absolute;
-        top: 400px;
+        top: 360px;
         left: -400px;
     }
     </style>
