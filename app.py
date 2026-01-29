@@ -26,9 +26,9 @@ def main():
     .hero-title {
         font-size: 125px !important;
         font-weight: 1000 !important;
-        color: red !important;
-        font-family: Lora !important;
-        text-align: right;
+        color: white !important;
+        font-family: clash display !important;
+        text-align: left;
         margin-top: 40px;
     }
     </style>
