@@ -13,14 +13,19 @@ def main():
 
         """ <style> 
         .stApp {  
-        background-image: 
+        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
         url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG"); 
         background-position-x: center;
         background-position-y: center;
         background-repeat: no-repeat;
         background-size: 1600px 200vh;
         background-attachment: scroll !important;
+        animation-name: animation;
+        animation-timeline: scroll();
          } 
+        @keyframes animate{
+        to{background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));}
+        }
         </style> """, unsafe_allow_html=True ) 
      
 
