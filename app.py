@@ -45,6 +45,8 @@ def main():
         .about{
         font-size: 75px;
         color: white;
+        position: absolute;
+        top: 1400px;
         }
         </style>""", unsafe_allow_html=True
     )
