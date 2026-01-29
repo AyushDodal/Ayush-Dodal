@@ -56,7 +56,7 @@ def main():
     }
 
 
-    .about{
+    .hero-about{
     top: 120vh;
     left: -350px;
     color: white !important;
@@ -75,24 +75,15 @@ def main():
     <div class="hero">
         <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG">
         <h1 class="hero-title">Ayush Dodal</h1>
+        <h2 class="hero-about">About me</h2>
+        
     </div>
     """,
     unsafe_allow_html=True
 )
 
 
-    st.markdown(
-    """
-    <div class="about">
-        <h2>About Me</h2>
-        <p>
-        AI Engineer focused on data, LLMs, and real-world systems.
-        I build things that actually ship.
-        </p>
-    </div>
-    """,
-    unsafe_allow_html=True
-)
+
 
 
     
