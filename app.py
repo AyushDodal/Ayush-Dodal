@@ -8,7 +8,7 @@ def main():
     .stApp {
         background: 
           linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-          url("images/IMG_5533.jpg");
+          url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_5533.jpg");
         background-size: cover;
         background-position: center;
     }
