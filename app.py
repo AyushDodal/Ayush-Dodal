@@ -26,6 +26,7 @@ def main():
     <style>
     @import url('https://fonts.cdnfonts.com/css/courier-prime');
     .hero-title {
+        white-space: nowrap !important;
         font-size: 125px !important;
         font-weight: 700 !important;
         color: white !important;
