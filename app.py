@@ -9,7 +9,7 @@ def main():
         background: 
           linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
           url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG");
-        background-size: 50%;
+        background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
         min-height: 200vh;
