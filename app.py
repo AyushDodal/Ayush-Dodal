@@ -33,7 +33,7 @@ def main():
         font-family: 'Courier Prime' !important;
         position: absolute;
         top: 40px;
-        left: -200px;
+        left: -400px;
     }
     </style>
     """,
