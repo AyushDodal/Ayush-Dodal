@@ -14,6 +14,8 @@ def main():
         height: 10px;
         top: 0;
         width: 100%;
+        background-color: black;
+        z-index: 1000
         scale: 0 1;
         transform-origin: left;
         animation: scroll-watcher linear;
