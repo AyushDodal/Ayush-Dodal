@@ -31,8 +31,9 @@ def main():
         font-weight: 700 !important;
         color: white !important;
         font-family: 'Courier Prime' !important;
-        text-align: left !important;
-        margin-top: 40px !important;
+        position: absolute;
+        top: 40px;
+        left: 70px;
     }
     </style>
     """,
