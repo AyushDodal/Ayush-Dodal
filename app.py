@@ -5,6 +5,7 @@ def main():
   st.markdown(
     """
     <style>
+    
     .stApp {
         background: 
           linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
@@ -23,11 +24,12 @@ def main():
   st.markdown(
     """
     <style>
+    @import url('https://fonts.cdnfonts.com/css/clash-display');
     .hero-title {
         font-size: 125px !important;
         font-weight: 1000 !important;
         color: white !important;
-        font-family: Clash Display !important;
+        font-family: 'Clash Display' !important;
         text-align: left !important;
         margin-top: 40px !important;
     }
