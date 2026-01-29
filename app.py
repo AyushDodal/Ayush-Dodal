@@ -9,34 +9,31 @@ def main():
     st.markdown(
     """
     <style>
-    .block-container {
-        padding: 0;
-        max-width: 100%;
-    }
-
     .hero {
-        width: 100vw;
-        height: 100vh;
+        min-height: 120vh;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        padding-top: 10vh;
         position: relative;
-        margin-left: calc(-50vw + 50%);
-        overflow: hidden;
     }
 
     .hero img {
-        width: 40vw;
+        width: 40vw;          /* controls horizontal size */
+        max-width: 600px;     /* cap for big screens */
         height: auto;
-        opacity: 0.5;
+        opacity: 0.6;
     }
 
     .hero-title {
         position: absolute;
-        top: 50%;
-        left: 40px;
-        transform: translateY(-50%);
-        color: white;
+        top: 25vh;
+        left: 10vw;
         font-size: clamp(48px, 8vw, 120px);
+        color: white;
         font-weight: 700;
         white-space: nowrap;
+        pointer-events: none;
     }
     </style>
     """,
