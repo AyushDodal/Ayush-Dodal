@@ -26,6 +26,7 @@ def main():
         to {scale: 1 1;}
         }
         </style>
+        <div class="scroll-watcher"></div>
         """
     )
 
