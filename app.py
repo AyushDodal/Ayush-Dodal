@@ -58,11 +58,25 @@ def main():
 
     .hero-about{
         position: absolute;
-        top: 120vh;
+        top: 100vh;
         left: -350px;
         color: white !important;
+        font-family: 'Courier Prime', monospace !important;
         font-size: 90px !important;
         text-shadow: 0px 8px 20px rgba(0,0,0,0.7);
+
+        animation: animate-about;
+        animation-timeline: scroll();
+        
+    }
+
+    @keyframes animate-about{
+    from{
+    opacity:0
+    }
+    to{
+    opacity:1
+    }
     }
 
     </style>
