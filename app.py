@@ -30,7 +30,7 @@ def main():
         position: absolute;
         top: 35vh;
         left: -200px;
-        font-size: clamp(48px, 8vw, 120px);
+        font-size: 72px;
         font-color: white;
         font-weight: 700;
         white-space: nowrap;
