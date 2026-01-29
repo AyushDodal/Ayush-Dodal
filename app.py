@@ -11,8 +11,7 @@ def main():
     # Background Image
     st.markdown( 
         """ <style> 
-        .stApp { 
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+        .stApp {  
         url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG"); 
         background-position-x: center;
         background-position-y: center;
