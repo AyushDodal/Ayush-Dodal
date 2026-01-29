@@ -24,11 +24,11 @@ def main():
     """
     <style>
     .hero-title {
-        font-size: 72px;
-        font-weight: 700;
-        color: white;
+        font-size: 125px;
+        font-weight: 1000;
+        color: red;
         font-family: Inter, sans-serif;
-        text-align: center;
+        text-align: right;
         margin-top: 40px;
     }
     </style>
