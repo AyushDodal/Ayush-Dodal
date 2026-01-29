@@ -11,6 +11,7 @@ def main():
           url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_5533.jpg");
         background-size: 50%;
         background-position: center;
+        background-repeat: no-repeat;
     }
     </style>
     """,
