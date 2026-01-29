@@ -30,8 +30,8 @@ def main():
         position: absolute;
         top: 35vh;
         left: -200px;
-        font-size: 72px;
-        font-color: white;
+        font-size: 72px !important;
+        color: white !important;
         font-weight: 700;
         white-space: nowrap;
         pointer-events: none;
