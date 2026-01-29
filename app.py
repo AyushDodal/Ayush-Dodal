@@ -21,9 +21,7 @@ def main():
     <style>
 
 
-    .stApp {
-    background-color: #7f7f7f;
-    }
+
 
     .hero {
         min-height: 200vh;
