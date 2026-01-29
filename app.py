@@ -9,7 +9,7 @@ def main():
     """
     <div class="hero">
         <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG"
-             style="width:100%; height:auto; object-fit:cover; opacity=50%;">
+             style="width:100%; height:200vh; object-fit:cover; opacity=50%;">
         <h1 class="hero-title">Ayush Dodal</h1>
     </div>
     """,
