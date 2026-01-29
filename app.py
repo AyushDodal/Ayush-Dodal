@@ -24,12 +24,12 @@ def main():
   st.markdown(
     """
     <style>
-    @import url('https://fonts.cdnfonts.com/css/clash-display');
+    @import url('https://fonts.cdnfonts.com/css/courier-prime');
     .hero-title {
         font-size: 125px !important;
         font-weight: 700 !important;
         color: white !important;
-        font-family: 'Clash Display' !important;
+        font-family: 'Courier Prime' !important;
         text-align: left !important;
         margin-top: 40px !important;
     }
