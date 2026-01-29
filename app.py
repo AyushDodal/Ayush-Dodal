@@ -17,8 +17,8 @@ def main():
         background-position-x: center;
         background-position-y: center;
         background-repeat: no-repeat;
-        background:attachment: scroll;
-        width: -50%;
+        background-size: contain;
+        
          } 
         </style> """, unsafe_allow_html=True ) 
         
