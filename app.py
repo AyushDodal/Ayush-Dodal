@@ -30,7 +30,6 @@ def main():
         display: flex;
         justify-content: center;
         align-items: flex-start;
-        padding-top: 0;
         position: relative;
         
     }
