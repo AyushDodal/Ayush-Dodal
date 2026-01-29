@@ -43,7 +43,7 @@ def main():
         .about{
         font-size: 75px;
         color: white;
-        position: absolute;
+        position: sticky;
         top: 800px;
         left: -400px;
         }
