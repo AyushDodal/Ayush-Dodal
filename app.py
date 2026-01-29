@@ -40,18 +40,7 @@ def main():
     
     st.markdown('<h1 class="hero-title", style="100vh">Ayush Dodal</h1>', unsafe_allow_html=True) 
 
-    # ABOUT
-    st.markdown(
-        """<style>
-        .about{
-        font-size: 75px;
-        color: white;
-        margin-top: 1500px;
-        margin-left: 10px;
-        }
-        </style>""", unsafe_allow_html=True
-    )
-    st.markdown('<div class="about">About</div>', unsafe_allow_html=True)
+   
 
     
     
