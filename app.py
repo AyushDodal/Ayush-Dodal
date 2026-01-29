@@ -17,7 +17,7 @@ def main():
         background-size: contain; 
         background-position: center; 
         background-repeat: no-repeat;
-        
+        min-height: 200vh
          } 
         </style> """, unsafe_allow_html=True ) 
         
