@@ -5,38 +5,6 @@ import streamlit as st
 
 
 def main():
-
-
-    st.markdown(
-    """
-    <style>
-    .about{
-      min-height:100vh;
-      padding:20vh 10vw;
-      color:white;
-      font-size:48px;
-      opacity:0;
-      transform:translateY(60px);
-      transition:all .8s ease-out;
-    }
-    .about.show{
-      opacity:1;
-      transform:translateY(0);
-    }
-    </style>
-    
-    <script>
-    const observer = new IntersectionObserver(entries=>{
-      entries.forEach(e=>{
-        if(e.isIntersecting) e.target.classList.add("show");
-      });
-    },{threshold:0.3});
-    
-    document.querySelectorAll(".about").forEach(el=>observer.observe(el));
-    </script>
-    """,
-    unsafe_allow_html=True
-    )
     
     
         
@@ -85,6 +53,15 @@ def main():
         pointer-events: none;
         text-shadow: 0px 8px 20px rgba(0,0,0,0.7);
 
+    }
+
+
+    .about{
+    top: 120vh;
+    left: -350px;
+    color: white !important;
+    font-size: 90px !important;
+    text-shadow: 0px 8px 20px rgba(0,0,0,0.7);
     }
 
     </style>
