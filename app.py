@@ -14,7 +14,7 @@ def main():
         .stApp { 
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
         url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG"); 
-        background-size: 50% 50%; 
+        background-size: 100% 100%; 
         background-position: center; 
         background-repeat: no-repeat;
         background-attachment: scroll;
