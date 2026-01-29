@@ -19,7 +19,7 @@ def main():
         scale: 0 1;
         transform-origin: left;
         animation: scroll-watcher linear;
-        animation: scroll()
+        animation-timeline: scroll()
         }
 
         @keyframes scroll-watcher{
