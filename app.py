@@ -13,7 +13,7 @@ def main():
         """ <style> 
         .stApp {  
         background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)),
-        url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/tree.jfif"); 
+        url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG"); 
         background-position-x: center;
         background-position-y: center;
         background-repeat: no-repeat;
