@@ -12,6 +12,7 @@ def main():
         background-size: 50%;
         background-position: center;
         background-repeat: no-repeat;
+        min-height: 200vh;
     }
     </style>
     """,
