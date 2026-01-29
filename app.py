@@ -49,7 +49,7 @@ def main():
         }
         </style>""", unsafe_allow_html=True
     )
-    st.markdown('<div, class="about">About</div>')
+    st.markdown('<div, class="about">About</div>', unsafe_allow_html=True)
 
     
     
