@@ -27,7 +27,7 @@ def main():
         font-size: 125px !important;
         font-weight: 1000 !important;
         color: red !important;
-        font-family: Inter, sans-serif !important;
+        font-family: Lora !important;
         text-align: right;
         margin-top: 40px;
     }
