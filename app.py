@@ -13,7 +13,7 @@ def main():
         """ <style> 
         .stApp {  
         background-image:
-        url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/i.jpg");
+        url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG");
         background-repeat: no-repeat;
          } 
        
@@ -36,8 +36,7 @@ def main():
     st.markdown('<h1 class="hero-title", style="100vh">Ayush Dodal</h1>', unsafe_allow_html=True) 
 
 
-    for i in range(100):
-        st.write("i")
+
     
 
    
