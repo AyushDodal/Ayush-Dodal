@@ -39,13 +39,13 @@ def main():
         position: absolute;
         top: 35vh;
         left: -200px;
-        font-size: 90px !important;
+        font-size: 120px !important;
         color: white !important;
         font-weight: 700;
         font-family: 'Courier Prime', monospace !important;
         white-space: nowrap;
         pointer-events: none;
-        text-shadow: 1px 2px 6px rgba(0,0,0,0.5);
+        text-shadow: 1px 2px 6px rgba(0,0,0,0.7);
 
     }
     </style>
