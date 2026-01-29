@@ -27,7 +27,7 @@ def main():
     @import url('https://fonts.cdnfonts.com/css/clash-display');
     .hero-title {
         font-size: 125px !important;
-        font-weight: 1000 !important;
+        font-weight: 700 !important;
         color: white !important;
         font-family: 'Clash Display' !important;
         text-align: left !important;
