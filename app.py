@@ -6,6 +6,44 @@ import streamlit as st
 
 def main():
 
+
+    st.markdown(
+    """
+    <style>
+    .about {
+        min-height: 100vh;
+        padding: 20vh 10vw;
+        color: white;
+        font-size: 48px;
+        opacity: 0;
+        transform: translateY(60px);
+        transition: all 0.8s ease-out;
+    }
+
+    .about.show {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    </style>
+
+    <script>
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("show");
+            }
+        });
+    }, { threshold: 0.3 });
+
+    window.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".about").forEach(el => observer.observe(el));
+    });
+    </script>
+    """,
+    unsafe_allow_html=True
+)
+
+
     
     st.markdown(
     """
@@ -54,43 +92,6 @@ def main():
 
     }
 
-
-
-
-
-    .about {
-        min-height: 100vh;
-        padding: 20vh 10vw;
-        color: white;
-        font-size: 48px;
-        opacity: 0;
-        transform: translateY(60px);
-        transition: all 0.8s ease-out;
-    }
-
-    .about.show {
-        opacity: 1;
-        transform: translateY(0);
-    }
-    </style>
-
-    <script>
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add("show");
-            }
-        });
-    }, { threshold: 0.3 });
-
-    window.addEventListener("DOMContentLoaded", () => {
-        document.querySelectorAll(".about").forEach(el => observer.observe(el));
-    });
-    </script>
-
-
-
-    
     </style>
     """,
     unsafe_allow_html=True
