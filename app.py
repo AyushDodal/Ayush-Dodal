@@ -13,7 +13,8 @@ def main():
         """ <style> 
         .stApp {  
         background-image:
-        url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/i.jpg"); 
+        url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/i.jpg");
+        background-repeat: no-repeat;
          } 
        
         </style> """, unsafe_allow_html=True 
