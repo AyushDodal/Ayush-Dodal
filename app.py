@@ -25,6 +25,7 @@ def main():
         align-items: flex-start;
         padding-top: 0;
         position: relative;
+        background-color: #0e1117;
     }
 
     .hero img {
