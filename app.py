@@ -38,8 +38,24 @@ def main():
     </style>
     """,
     unsafe_allow_html=True)
-  st.markdown('<h1 class="hero-title">Ayush Dodal</h1>', unsafe_allow_html=True)
+  st.markdown('<h1 class="hero-title", style="100vh">Ayush Dodal</h1>', unsafe_allow_html=True)
+
+
+  # ABOUT
+  st.markdown(
+      """
+      <div data-aos="fade-up" style="max-width:800px; margin:0 auto;">
+          <h2>About Me</h2>
+          <p>
+          AI Engineer focused on data, LLMs, and real-world systems.
+          </p>
+      </div>
+      """,
+      unsafe_allow_html=True
+  )
   
+  st.markdown('<div style="height:60vh"></div>', unsafe_allow_html=True)
+    
 
 
 if __name__=="__main__":
