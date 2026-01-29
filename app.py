@@ -30,7 +30,7 @@ def main():
 
     .hero-title {
         position: absolute;
-        top: 25vh;
+        top: 35vh;
         left: 5vw;
         font-size: clamp(48px, 8vw, 120px);
         color: white;
