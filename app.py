@@ -22,7 +22,7 @@ def main():
 
 
     .stApp {
-    background-color: #0e1117;
+    background-color: #7f7f7f;
     }
 
     .hero {
