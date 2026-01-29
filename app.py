@@ -3,7 +3,7 @@ import streamlit as st
 
 def main():
   st.markdown(
-    
+    """
     <style>
     .stApp {
         background: 
@@ -13,7 +13,7 @@ def main():
         background-position: center;
     }
     </style>
-    ,
+    """,
     unsafe_allow_html=True
   )
 
