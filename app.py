@@ -16,7 +16,7 @@ def main():
         url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG"); 
         background-position: center; 
         background-repeat: no-repeat;
-        background-size: 400px 1200px;
+        background-size: 1200px 2000px;
         background:attachment: scroll;
          } 
         </style> """, unsafe_allow_html=True ) 
