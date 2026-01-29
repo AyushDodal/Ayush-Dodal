@@ -26,14 +26,12 @@ def main():
     }
 
 
-
-
     .hero-title {
         position: absolute;
         top: 35vh;
-        left: 5vw;
+        left: -200px;
         font-size: clamp(48px, 8vw, 120px);
-        color: white;
+        font-color: white;
         font-weight: 700;
         white-space: nowrap;
         pointer-events: none;
