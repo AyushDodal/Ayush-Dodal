@@ -4,7 +4,30 @@ import streamlit as st
 
 
 
-def main(): 
+def main():
+
+    st.markdown(
+        """
+        <style>
+        .scroll-watcher{
+        position: fixed;
+        height: 10px;
+        top: 0;
+        width: 100%;
+        scale: 0 1;
+        transform-origin: left;
+        animation: scroll-watcher linear;
+        animation: scroll()
+        }
+
+        @keyframes scroll-watcher{
+        to {scale: 1 1;}
+        }
+        </style>
+        """
+    )
+
+    
     st.markdown( 
         """ <style> 
         .stApp { 
