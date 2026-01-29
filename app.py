@@ -5,10 +5,19 @@ import streamlit as st
 
 
 def main():
+    st.markdown(
+    """
+    <style>
+    @import url('https://fonts.cdnfonts.com/css/courier-prime');
+    </style>
+    """,
+    unsafe_allow_html=True
+)
 
     st.markdown(
     """
     <style>
+
     .hero {
         min-height: 200vh;
         display: flex;
@@ -30,9 +39,10 @@ def main():
         position: absolute;
         top: 35vh;
         left: -200px;
-        font-size: 72px !important;
+        font-size: 90px !important;
         color: white !important;
         font-weight: 700;
+        font-family: 'Courier Prime', monospace !important;
         white-space: nowrap;
         pointer-events: none;
     }
