@@ -13,7 +13,7 @@ def main():
         min-height: 200vh; } 
         </style> """, unsafe_allow_html=True ) 
         
-    #st.title("Ayush Dodal") 
+    st.title("Ayush Dodal") 
     st.markdown( 
         """ <style> 
         @import url('https://fonts.cdnfonts.com/css/courier-prime'); 
