@@ -27,9 +27,9 @@ def main():
         font-size: 125px !important;
         font-weight: 1000 !important;
         color: white !important;
-        font-family: clash display !important;
-        text-align: left;
-        margin-top: 40px;
+        font-family: Clash Display !important;
+        text-align: left !important;
+        margin-top: 40px !important;
     }
     </style>
     """,
