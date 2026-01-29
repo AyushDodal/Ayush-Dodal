@@ -26,14 +26,14 @@ def main():
     <style>
     @import url('https://fonts.cdnfonts.com/css/courier-prime');
     .hero-title {
-        white-space: nowrap !important;
+        white-space: wrap !important;
         font-size: 125px !important;
         font-weight: 700 !important;
         color: white !important;
         font-family: 'Courier Prime' !important;
         position: absolute;
         top: 40px;
-        left: 70px;
+        left: 20px;
     }
     </style>
     """,
