@@ -25,6 +25,14 @@ def main():
         opacity: 0.6;
     }
 
+    .hero::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: rgba(0,0,0,0.4);
+    }
+
+
     .hero-title {
         position: absolute;
         top: 25vh;
