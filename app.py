@@ -27,7 +27,7 @@ def main():
         }
         </style>
         <div class="scroll-watcher"></div>
-        """
+        """, unsafe_allow_html=True
     )
 
     
