@@ -26,7 +26,7 @@ def main():
     <style>
     h1 {
       color: #ffffff;
-      font-size: 64px;
+      font-size: 90px;
       font-family: "Inter", sans-serif;
       font-weight: 700;
       text-align: center;
