@@ -45,7 +45,8 @@ def main():
         .about{
         font-size: 75px;
         color: white;
-        margin-top: 500px;
+        margin-top: 1500px;
+        margin-left: 10px;
         }
         </style>""", unsafe_allow_html=True
     )
