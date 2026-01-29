@@ -9,19 +9,22 @@ def main():
     
 
     # Background Image
-    st.markdown( 
-        """ <style> 
-        .stApp {  
-        background-image: 
-        url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG"); 
-        background-position-x: center;
-        background-position-y: center;
+ 
+
+    st.markdown(
+    """
+    <style>
+    [data-testid="stAppViewContainer"] {
+        background-image: url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG");
+        background-size: 100vw auto;  /* Fits width, allows height to scroll */
+        background-position: top center;
         background-repeat: no-repeat;
-        background-size: 1600px 200vh;
         background-attachment: local;
-         } 
-        </style> """, unsafe_allow_html=True ) 
-        
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
     
     # TITLE
     #st.title("Ayush Dodal") 
