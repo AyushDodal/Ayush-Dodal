@@ -45,6 +45,8 @@ def main():
         font-family: 'Courier Prime', monospace !important;
         white-space: nowrap;
         pointer-events: none;
+        text-shadow: 1px 2px 6px rgba(0,0,0,0.5);
+
     }
     </style>
     """,
