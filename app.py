@@ -5,9 +5,8 @@ import streamlit as st
 
 
 def main():
-
     
-
+    
     # Background Image
     st.markdown( 
 
@@ -26,10 +25,8 @@ def main():
         @keyframes animate{
         to{background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));}
         }
-        </style> """, unsafe_allow_html=True ) 
-     
-
-    
+        </style> """, unsafe_allow_html=True 
+    ) 
     # TITLE
     #st.title("Ayush Dodal") 
     st.markdown( 
