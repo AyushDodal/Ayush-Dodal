@@ -17,7 +17,7 @@ def main():
         background-position-x: center;
         background-position-y: center;
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
         
          } 
         </style> """, unsafe_allow_html=True ) 
