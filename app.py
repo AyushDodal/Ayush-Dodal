@@ -38,7 +38,7 @@ def main():
     .hero-title {
         position: absolute;
         top: 35vh;
-        left: -250px;
+        left: -350px;
         font-size: 120px !important;
         color: white !important;
         font-weight: 700;
