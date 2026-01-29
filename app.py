@@ -34,7 +34,7 @@ def main():
         font-family: 'Courier Prime' !important;
         position: fixed;
         top: 380px;
-        left: 100px; 
+        left: 200px; 
         } </style> """, unsafe_allow_html=True) 
     
     st.markdown('<h1 class="hero-title", style="100vh">Ayush Dodal</h1>', unsafe_allow_html=True) 
