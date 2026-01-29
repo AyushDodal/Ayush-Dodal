@@ -19,11 +19,11 @@ def main():
         scale: 0 1;
         transform-origin: left;
         animation: scroll-watcher linear;
-        animation-timeline: scroll()
+        animation-timeline: scroll();
         }
 
         @keyframes scroll-watcher{
-        to {scale: 1 1;}
+            to {scale: 1 1;}
         }
         </style>
         <div class="scroll-watcher"></div>
