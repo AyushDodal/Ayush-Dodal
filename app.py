@@ -32,7 +32,7 @@ def main():
         font-weight: 700 !important; 
         color: white !important; 
         font-family: 'Courier Prime' !important; 
-        margin-left: 40px; 
+        margin-left: 20px; 
         } </style> """, unsafe_allow_html=True) 
     
     st.markdown('<h1 class="hero-title", style="100vh">Ayush Dodal</h1>', unsafe_allow_html=True) 
