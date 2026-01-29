@@ -1,0 +1,18 @@
+.scroll-watcher {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 6px;
+        width: 100%;
+        background: lime;
+        z-index: 9999;
+        transform-origin: left;
+        scale: 0 1;
+
+        animation: scroll-progress linear;
+        animation-timeline: scroll();
+    }
+
+    @keyframes scroll-progress {
+        to { scale: 1 1; }
+    }
