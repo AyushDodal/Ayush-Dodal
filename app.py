@@ -14,10 +14,10 @@ def main():
         .stApp { 
         background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
         url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG"); 
-        background-size: 50%; 
+        background-size: contain; 
         background-position: center; 
         background-repeat: no-repeat; 
-         } 
+        min-height: 500vh } 
         </style> """, unsafe_allow_html=True ) 
         
     
