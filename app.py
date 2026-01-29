@@ -40,13 +40,13 @@ def main():
     
     
         
-        st.markdown(
-        """
-        <style>
-        @import url('https://fonts.cdnfonts.com/css/courier-prime');
-        </style>
-        """,
-        unsafe_allow_html=True
+    st.markdown(
+    """
+    <style>
+    @import url('https://fonts.cdnfonts.com/css/courier-prime');
+    </style>
+    """,
+    unsafe_allow_html=True
     )
 
     st.markdown(
