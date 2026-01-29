@@ -6,41 +6,9 @@ import streamlit as st
 
 def main():
 
-    st.markdown(
-    """
-    <style>
-    .scroll-watcher {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 10px;
-        width: 100%;
-        background-color: black;
-        transform-origin: left;
-        transform: scaleX(0);
-        z-index: 9999;
-    }
-    </style>
-
-    <div class="scroll-watcher"></div>
-
-    <script>
-    const bar = document.querySelector(".scroll-watcher");
-
-    const container = document.querySelector("section.main");
-
-    container.addEventListener("scroll", () => {
-        const scrollTop = container.scrollTop;
-        const scrollHeight = container.scrollHeight - container.clientHeight;
-        const progress = scrollTop / scrollHeight;
-        bar.style.transform = `scaleX(${progress})`;
-    });
-    </script>
-    """,
-    unsafe_allow_html=True
-)
-
     
+
+    # Background Image
     st.markdown( 
         """ <style> 
         .stApp { 
@@ -52,6 +20,8 @@ def main():
         min-height: 200vh; } 
         </style> """, unsafe_allow_html=True ) 
         
+    
+    # TITLE
     #st.title("Ayush Dodal") 
     st.markdown( 
         """ <style> 
@@ -68,6 +38,18 @@ def main():
         } </style> """, unsafe_allow_html=True) 
     
     st.markdown('<h1 class="hero-title", style="100vh">Ayush Dodal</h1>', unsafe_allow_html=True) 
+
+    # ABOUT
+    st.markdown(
+        """<style>
+        .about{
+        font-size: 75px;
+        color: white;
+        left: -400px;
+        }
+        </style>""", unsafe_allow_html=True
+    )
+    st.markdown('<div, class="about">About</div>')
 
     
     
