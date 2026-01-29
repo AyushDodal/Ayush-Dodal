@@ -7,28 +7,38 @@ import streamlit as st
 def main():
 
     st.markdown(
-        """
-        <style>
-        .scroll-watcher{
+    """
+    <style>
+    .scroll-watcher {
         position: fixed;
-        height: 10px;
         top: 0;
+        left: 0;
+        height: 6px;
         width: 100%;
-        background-color: black;
-        z-index: 1000
-        scale: 0 1;
+        background: lime;
         transform-origin: left;
-        animation: scroll-watcher linear;
-        animation-timeline: scroll();
-        }
+        transform: scaleX(0);
+        z-index: 9999;
+    }
+    </style>
 
-        @keyframes scroll-watcher{
-            to {scale: 1 1;}
-        }
-        </style>
-        <div class="scroll-watcher"></div>
-        """, unsafe_allow_html=True
-    )
+    <div class="scroll-watcher"></div>
+
+    <script>
+    const bar = document.querySelector(".scroll-watcher");
+
+    const container = document.querySelector("section.main");
+
+    container.addEventListener("scroll", () => {
+        const scrollTop = container.scrollTop;
+        const scrollHeight = container.scrollHeight - container.clientHeight;
+        const progress = scrollTop / scrollHeight;
+        bar.style.transform = `scaleX(${progress})`;
+    });
+    </script>
+    """,
+    unsafe_allow_html=True
+)
 
     
     st.markdown( 
