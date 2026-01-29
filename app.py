@@ -31,8 +31,10 @@ def main():
         font-size: 125px !important; 
         font-weight: 700 !important; 
         color: white !important; 
-        font-family: 'Courier Prime' !important; 
-        margin-left: 5px; 
+        font-family: 'Courier Prime' !important;
+        position: absolute;
+        top: 360px;
+        left: -400px; 
         } </style> """, unsafe_allow_html=True) 
     
     st.markdown('<h1 class="hero-title", style="100vh">Ayush Dodal</h1>', unsafe_allow_html=True) 
