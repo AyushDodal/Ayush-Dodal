@@ -1,4 +1,4 @@
-'''import streamlit as st 
+import streamlit as st 
 
 
 
@@ -54,12 +54,12 @@ def main():
     
     
 if __name__=="__main__": 
-    main()'''
+    main()
 
 
 
 
-import streamlit as st
+'''import streamlit as st
 
 def main():
 
@@ -128,3 +128,4 @@ def main():
 if __name__ == "__main__":
     main()
 
+'''
