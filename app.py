@@ -12,6 +12,7 @@ def main():
     st.markdown( 
         """ <style> 
         .stApp {  
+        background-image: 
         url("https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG"); 
         background-position-x: center;
         background-position-y: center;
