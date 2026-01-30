@@ -66,7 +66,7 @@ def main():
         text-shadow: 0px 8px 20px rgba(0,0,0,0.7);
 
         animation: animate-about;
-        animation-timeline: scroll();
+        animation-timeline: view();
         animation-range: entry 500px;
         
     }
