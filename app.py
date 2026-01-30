@@ -129,6 +129,9 @@ def main():
     <div class="hero">
         <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG">
         <h1 class="hero-title">hi, i'm ayush, an<br> ai engineer from mumbai</h1>
+        <p class="hero-about">I like building things that work — <br>data systems, 
+        ai tools, and ideas that <br>actually ship.</p>
+
         
 
         
