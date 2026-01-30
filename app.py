@@ -46,13 +46,12 @@ def main():
         top: 1vh;
         left: -350px;
         font-size: 105px !important;
-        color: white !important;
+        color: black !important;
         font-weight: 700;
         font-family: 'Courier Prime', monospace !important;
         white-space: nowrap;
         pointer-events: none;
-        text-shadow: 0 0 30px rgba(0,0,0,1), 0 0 30px rgba(0,0,0,1), 0 0 30px rgba(0,0,0,1),
-        0 0 30px rgba(0,0,0,1);
+
 
     }
 
