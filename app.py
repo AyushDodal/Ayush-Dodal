@@ -132,6 +132,10 @@ def main():
         <p class="hero-about">I like building things that work — <br>data systems, 
         ai tools, and ideas that <br>actually ship.</p>
 
+        <p class="hero-edu">pursued my master's from northeastern university in boston.</p>
+
+
+
         
 
         
