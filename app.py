@@ -70,11 +70,10 @@ def main():
         position: absolute;
         top: 90vh;
         left: -350px;
-        color: white !important;
+        color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
-        text-shadow: 0 0 30px rgba(0,0,0,1), 0 0 30px rgba(0,0,0,1), 0 0 30px rgba(0,0,0,1),
-        0 0 30px rgba(0,0,0,1);
+
 
         animation: animate-about;
         animation-timeline: scroll();
