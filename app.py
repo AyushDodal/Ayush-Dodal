@@ -61,6 +61,7 @@ def main():
         left: -350px;
         font-size: 60px !important;
         color: black !important;
+        white-space: nowrap;
         font-family: 'Courier Prime', monospace !important;
         text-shadow: 8px 8px 20px rgba(0,0,0,0.7);
     }
@@ -100,8 +101,7 @@ def main():
     <div class="hero">
         <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG">
         <h1 class="hero-title">hi, i'm ayush, an<br> ai engineer from mumbai</h1>
-        <p class="hero-2">Born & raised in Mumbai, 
-        I pursued my Master's from Northeastern University in Boston.</p>
+        <p class="hero-2">i pursued my master's from northeastern university in boston.</p>
         <p class="hero-about">I like building things that work — data systems, 
         AI tools, and ideas that actually ship.</p>
         
