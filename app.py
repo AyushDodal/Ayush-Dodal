@@ -67,7 +67,7 @@ def main():
 
         animation: animate-about;
         animation-timeline: scroll();
-        animation-range: entry 500px;
+        animation-range: entry;
         
     }
 
