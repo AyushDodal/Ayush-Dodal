@@ -62,7 +62,7 @@ def main():
         font-size: 60px !important;
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
-        text-shadow: 0px 8px 20px rgba(0,0,0,0.7);
+        text-shadow: 8px 8px 20px rgba(0,0,0,0.7);
     }
 
     .hero-about{
@@ -72,7 +72,7 @@ def main():
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
-        text-shadow: 0px 8px 20px rgba(0,0,0,0.7);
+        text-shadow: 8px 8px 20px rgba(0,0,0,0.7);
 
         animation: animate-about;
         animation-timeline: scroll();
