@@ -43,7 +43,7 @@ def main():
 
     .hero-title {
         position: absolute;
-        top: 10vh;
+        top: 1vh;
         left: -350px;
         font-size: 120px !important;
         color: black !important;
@@ -58,7 +58,7 @@ def main():
 
     .hero-about{
         position: absolute;
-        top: 85vh;
+        top: 90vh;
         left: -350px;
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
