@@ -84,7 +84,7 @@ def main():
 
     .hero-projects-archive{
         position: absolute;
-        top: 110vh;
+        top: 120vh;
         left: -350px;
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
@@ -92,7 +92,14 @@ def main():
         font-weight: 600;
     }
 
-
+    .hero-projects-list{
+        position: absolute;
+        top: 121vh;
+        left: -350px;
+        color: black !important;
+        font-family: 'Courier Prime', monospace !important;
+        font-size: 60px !important;
+    }
 
     
 
@@ -120,6 +127,10 @@ def main():
         <p class="hero-about">I like building things that work — data systems, 
         AI tools, and ideas that actually ship.</p>
         <p class="hero-projects-archive">projects archive</p>
+        <p class="hero-projects-list">
+        fitness tracking ai agent<br>
+        rag chatbot
+        </p>
     </div>
     """,
     unsafe_allow_html=True
