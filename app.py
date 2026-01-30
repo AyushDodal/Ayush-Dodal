@@ -46,7 +46,7 @@ def main():
         top: 10vh;
         left: -350px;
         font-size: 120px !important;
-        color: white !important;
+        color: black !important;
         font-weight: 700;
         font-family: 'Courier Prime', monospace !important;
         white-space: nowrap;
@@ -58,9 +58,9 @@ def main():
 
     .hero-about{
         position: absolute;
-        top: 75vh;
+        top: 85vh;
         left: -350px;
-        color: white !important;
+        color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 90px !important;
         text-shadow: 0px 8px 20px rgba(0,0,0,0.7);
