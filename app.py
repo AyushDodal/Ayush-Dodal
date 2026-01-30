@@ -81,6 +81,21 @@ def main():
         
     }
 
+
+    .hero-projects-archive{
+        position: absolute;
+        top: 110vh;
+        left: -350px;
+        color: black !important;
+        font-family: 'Courier Prime', monospace !important;
+        font-size: 60px !important;
+        font-weight: 600;
+    }
+
+
+
+    
+
     @keyframes animate-about{
     from{
     opacity:0
@@ -104,7 +119,7 @@ def main():
         <p class="hero-2">i pursued my master's from <br>northeastern university in boston.</p>
         <p class="hero-about">I like building things that work — data systems, 
         AI tools, and ideas that actually ship.</p>
-        
+        <p class="hero-projects-archive">projects archive</p>
     </div>
     """,
     unsafe_allow_html=True
