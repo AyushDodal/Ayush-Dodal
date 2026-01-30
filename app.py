@@ -84,7 +84,7 @@ def main():
 
     .hero-projects-archive{
         position: absolute;
-        top: 120vh;
+        top: 130vh;
         left: -350px;
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
@@ -94,7 +94,7 @@ def main():
 
     .hero-projects-list{
         position: absolute;
-        top: 121vh;
+        top: 133vh;
         left: -350px;
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
