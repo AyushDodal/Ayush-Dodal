@@ -57,9 +57,9 @@ def main():
 
     .hero-2{
         position: absolute;
-        top: 40vh;
-        left: 200px;
-        font-size: 90px !important;
+        top: 50vh;
+        left: -350px;
+        font-size: 60px !important;
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
         text-shadow: 0px 8px 20px rgba(0,0,0,0.7);
@@ -100,7 +100,7 @@ def main():
     <div class="hero">
         <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG">
         <h1 class="hero-title">Hi, I'm Ayush<br>an AI Engineer from <br>Mumbai.</h1>
-        <h3 class="hero-2">I pursued my Master's from Northeastern University in Boston.</h3>
+        <p class="hero-2">I pursued my Master's from Northeastern University in Boston.</p>
         <h2 class="hero-about">I'm an AI Engineer from Mumbai.</h2>
         
     </div>
