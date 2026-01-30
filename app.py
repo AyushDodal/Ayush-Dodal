@@ -90,7 +90,7 @@ def main():
     """
     <div class="hero">
         <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG">
-        <h1 class="hero-title">Hi, I'm Ayush<br>an AI Engineer from Mumbai.</h1>
+        <h1 class="hero-title">Hi, I'm Ayush<br>an AI Engineer from <br>Mumbai.</h1>
         <h2 class="hero-about">I'm an AI Engineer from Mumbai.</h2>
         
     </div>
