@@ -99,7 +99,7 @@ def main():
     """
     <div class="hero">
         <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG">
-        <h1 class="hero-title">Hi, I'm Ayush<br>an AI Engineer from <br>Mumbai.</h1>
+        <h1 class="hero-title">hi, i'm ayush, an<br> ai engineer from mumbai.</h1>
         <p class="hero-2">Born & raised in Mumbai, 
         I pursued my Master's from Northeastern University in Boston.</p>
         <p class="hero-about">I like building things that work — data systems, 
