@@ -94,7 +94,7 @@ def main():
 
     .hero-projects-list{
         position: absolute;
-        top: 135vh;
+        top: 140vh;
         left: -350px;
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
