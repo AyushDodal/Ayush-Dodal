@@ -71,7 +71,7 @@ def main():
         left: -350px;
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
-        font-size: 90px !important;
+        font-size: 60px !important;
         text-shadow: 0px 8px 20px rgba(0,0,0,0.7);
 
         animation: animate-about;
@@ -100,8 +100,10 @@ def main():
     <div class="hero">
         <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG">
         <h1 class="hero-title">Hi, I'm Ayush<br>an AI Engineer from <br>Mumbai.</h1>
-        <p class="hero-2">I pursued my Master's from Northeastern University in Boston.</p>
-        <h2 class="hero-about">I'm an AI Engineer from Mumbai.</h2>
+        <p class="hero-2">Born & raised in Mumbai, 
+        I pursued my Master's from Northeastern University in Boston.</p>
+        <p class="hero-about">I like building things that work — data systems, 
+        AI tools, and ideas that actually ship.</p>
         
     </div>
     """,
