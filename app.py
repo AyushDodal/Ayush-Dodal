@@ -58,7 +58,7 @@ def main():
 
     .hero-about{
         position: absolute;
-        top: 50vh;
+        top: 75vh;
         left: -350px;
         color: white !important;
         font-family: 'Courier Prime', monospace !important;
@@ -66,7 +66,7 @@ def main():
         text-shadow: 0px 8px 20px rgba(0,0,0,0.7);
 
         animation: animate-about;
-        animation-timeline: view();
+        animation-timeline: scroll();
         animation-range: entry 500px;
         
     }
