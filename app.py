@@ -63,7 +63,7 @@ def main():
         color: black !important;
         white-space: nowrap;
         font-family: 'Courier Prime', monospace !important;
-        text-shadow: 20px 20px 40px rgba(0,0,0,0.7);
+        text-shadow: 0px 12px 30px rgba(0,0,0,0.7);
     }
 
     .hero-about{
