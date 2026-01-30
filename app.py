@@ -57,7 +57,7 @@ def main():
 
     .hero-edu{
         position: absolute;
-        top: 50vh;
+        top: 90vh;
         left: -350px;
         font-size: 60px !important;
         color: black !important;
@@ -71,7 +71,7 @@ def main():
 
     .hero-about{
         position: absolute;
-        top: 90vh;
+        top: 30vh;
         left: -350px;
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
@@ -131,7 +131,7 @@ def main():
         <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG">
         <h1 class="hero-title">hi, i'm ayush, an<br> ai engineer from mumbai</h1>
         
-        <p class="hero-2">i pursued my master's from <br>northeastern university in boston.</p>
+        <p class="hero-edu">i pursued my master's from <br>northeastern university in boston.</p>
         
         <p class="hero-about">I like building things that work — data systems, 
         AI tools, and ideas that actually ship.</p>
