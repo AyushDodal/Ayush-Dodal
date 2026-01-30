@@ -131,7 +131,7 @@ def main():
         <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG">
         <h1 class="hero-title">hi, i'm ayush, an<br> ai engineer from mumbai</h1>
         
-        <p class="hero-edu">i pursued my master's from <br>northeastern university in boston.</p>
+        <p class="hero-edu">i pursued my master's from <br>northeastern university in bostonn.</p>
         
         <p class="hero-about">I like building things that work — data systems, 
         AI tools, and ideas that actually ship.</p>
