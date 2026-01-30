@@ -45,7 +45,7 @@ def main():
         position: absolute;
         top: 1vh;
         left: -350px;
-        font-size: 110px !important;
+        font-size: 105px !important;
         color: black !important;
         font-weight: 700;
         font-family: 'Courier Prime', monospace !important;
