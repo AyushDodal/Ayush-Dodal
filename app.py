@@ -55,6 +55,17 @@ def main():
 
     }
 
+
+    .hero-about{
+        position: absolute;
+        top: 30vh;
+        left: -350px;
+        color: black !important;
+        font-family: 'Courier Prime', monospace !important;
+        font-size: 60px !important;
+        white-space: nowrap;   
+    }
+    
     .hero-edu{
         position: absolute;
         top: 90vh;
@@ -69,20 +80,7 @@ def main():
 
     }
 
-    .hero-about{
-        position: absolute;
-        top: 30vh;
-        left: -350px;
-        color: black !important;
-        font-family: 'Courier Prime', monospace !important;
-        font-size: 60px !important;
-        white-space: nowrap;
 
-
-
-        
-        
-    }
 
 
     .hero-projects-archive{
@@ -128,13 +126,20 @@ def main():
     """
     <div class="hero">
         <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG">
+        
         <h1 class="hero-title">hi, i'm ayush, an<br> ai engineer from mumbai</h1>
+        
         <p class="hero-about">I like building things that work — <br>data systems, 
         ai tools, and ideas that <br>actually ship.</p>
 
         <p class="hero-edu">pursued my master's from northeastern university in boston.</p>
 
+        <p class="hero-projects-archive">projects archive</p>
 
+        <p class="hero-projects-list">
+        fitness tracking ai agent<br>
+        rag chatbot
+        </p>
 
         
 
