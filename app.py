@@ -46,12 +46,13 @@ def main():
         top: 1vh;
         left: -350px;
         font-size: 105px !important;
-        color: black !important;
+        color: white !important;
         font-weight: 700;
         font-family: 'Courier Prime', monospace !important;
         white-space: nowrap;
         pointer-events: none;
-        text-shadow: 0px 8px 20px rgba(0,0,0,0.7);
+        text-shadow: 0 0 30px rgba(0,0,0,1), 0 0 30px rgba(0,0,0,1), 0 0 30px rgba(0,0,0,1),
+        0 0 30px rgba(0,0,0,1);
 
     }
 
@@ -71,10 +72,11 @@ def main():
         position: absolute;
         top: 90vh;
         left: -350px;
-        color: black !important;
+        color: white !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
-        text-shadow: 8px 8px 20px rgba(0,0,0,0.7);
+        text-shadow: 0 0 30px rgba(0,0,0,1), 0 0 30px rgba(0,0,0,1), 0 0 30px rgba(0,0,0,1),
+        0 0 30px rgba(0,0,0,1);
 
         animation: animate-about;
         animation-timeline: scroll();
