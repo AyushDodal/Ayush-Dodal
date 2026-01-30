@@ -55,24 +55,28 @@ def main():
 
     }
 
-    .hero-2{
+    .hero-edu{
         position: absolute;
-        top: 50vh;
+        top: 90vh;
         left: -350px;
         font-size: 60px !important;
         color: black !important;
         white-space: nowrap;
         font-family: 'Courier Prime', monospace !important;
 
+        animation: animate-about;
+        animation-timeline: scroll();
+
     }
 
     .hero-about{
         position: absolute;
-        top: 90vh;
+        top: 30vh;
         left: -350px;
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
+        white-space: nowrap;
 
 
         animation: animate-about;
@@ -99,6 +103,9 @@ def main():
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
+
+        animation: animate-about;
+        animation-timeline: scroll();
     }
 
     
