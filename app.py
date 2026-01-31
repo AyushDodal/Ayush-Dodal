@@ -71,8 +71,6 @@ def main():
         white-space: nowrap;
         font-family: 'Courier Prime', monospace !important;
 
-        animation: animate-about;
-        animation-timeline: scroll();
 
     }
 
