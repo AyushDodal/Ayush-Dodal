@@ -111,7 +111,7 @@ def main():
     .contact{
         position: absolute;
         top: 195vh;
-        text-align: center;
+        left: 90 px;
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
@@ -120,7 +120,7 @@ def main():
     .insta-contact{
         position: absolute;
         top: 205vh;
-        left: 500px;
+        left: 700px;
         width: 2vw;
         height: auto;
         
@@ -137,7 +137,7 @@ def main():
     .linkedin-contact{
         position: absolute;
         top: 205vh;
-        margin-left: auto;
+        left: 350px;
         width: 2vw;
         height: auto;
     }
