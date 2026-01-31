@@ -111,7 +111,7 @@ def main():
     .contact{
         position: absolute;
         top: 195vh;
-        left: 90 px;
+        left: 300 px;
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
