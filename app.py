@@ -117,15 +117,14 @@ def main():
     .github-contact{
         width: 2vw;
         height: auto;
-        
-        left: 0 px;
+        margin-left: 200 px;
     }
 
     .linkedin-contact{
         width: 2vw;
         height: auto;
         top: 190vh;
-        margin-left: 100px;
+        margin-left: 400px;
     }
 
     @keyframes animate-about{
