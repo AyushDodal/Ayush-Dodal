@@ -94,8 +94,6 @@ def main():
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
-        
-
         animation: animate-about;
         animation-timeline: scroll();
     }
@@ -131,7 +129,6 @@ def main():
         <h1 class="hero-title">hi, i'm ayush, an<br> ai engineer from mumbai</h1>
         <p class="hero-about">I like building things that work — <br>data systems, 
         ai tools, and ideas that <br>actually ship.</p>
-        <p class="hero-edu">i pursued my master's from <br>northeastern university in boston.</p>
         <p class="hero-projects-archive">projects archive</p>
         <p class="hero-projects-list">
         <a href="https://github.com/AyushDodal/repai">
