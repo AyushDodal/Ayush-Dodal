@@ -55,7 +55,15 @@ def main():
 
     }
 
-
+    .hero-about{
+        position: absolute;
+        top: 30vh;
+        left: -350px;
+        color: black !important;
+        font-family: 'Courier Prime', monospace !important;
+        font-size: 60px !important;
+        white-space: nowrap;   
+    }
 
     
 
@@ -80,7 +88,8 @@ def main():
         <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG">
         <h1 class="hero-title">hi, i'm ayush, an<br> ai engineer from mumbai</h1>
         
-        
+        <p class="hero-about">I like building things that work — <br>data systems, 
+        ai tools, and ideas that <br>actually ship.</p>
         
 
 
@@ -115,8 +124,7 @@ if __name__=="__main__":
 
 """
 
-        <p class="hero-about">I like building things that work — <br>data systems, 
-        ai tools, and ideas that <br>actually ship.</p>
+        
 
         <p class="hero-edu">pursued my master's from northeastern university in boston.</p>
 
@@ -128,15 +136,7 @@ if __name__=="__main__":
         </p>
 
 
-    .hero-about{
-        position: absolute;
-        top: 30vh;
-        left: -350px;
-        color: black !important;
-        font-family: 'Courier Prime', monospace !important;
-        font-size: 60px !important;
-        white-space: nowrap;   
-    }
+    
     
     .hero-edu{
         position: absolute;
