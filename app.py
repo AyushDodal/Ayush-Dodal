@@ -119,7 +119,7 @@ def main():
         position: absolute;
         width: 2vw;
         height: auto;
-        margin-left: 200 px;
+        margin-left: 300 px;
     }
 
     .linkedin-contact{
