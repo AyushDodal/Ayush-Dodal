@@ -111,7 +111,7 @@ def main():
     .contact{
         position: absolute;
         top: 195vh;
-        left: 30px;
+        left: 50px;
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
@@ -128,6 +128,7 @@ def main():
 
     .github-contact{
         position: absolute;
+        top: 205vh;
         left: 0px;
         width: 2vw;
         height: auto;
@@ -135,6 +136,7 @@ def main():
 
     .linkedin-contact{
         position: absolute;
+        top: 205vh
         left: 250px;
         width: 2vw;
         height: auto;
