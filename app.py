@@ -96,11 +96,20 @@ def main():
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
+        
 
         animation: animate-about;
         animation-timeline: scroll();
     }
     
+    .hero-projects-list a {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .hero-projects-list a:hover {
+        text-decoration: underline;
+    }
 
     @keyframes animate-about{
     from{
@@ -127,8 +136,10 @@ def main():
         <p class="hero-edu">i pursued my master's from <br>northeastern university in boston.</p>
         <p class="hero-projects-archive">projects archive</p>
         <p class="hero-projects-list">
-        fitness tracking ai agent<br>
-        rag chatbot
+        <a href="https://github.com/AyushDodal/repai">
+        fitness tracking ai agent</a><br>
+        <a href="https://github.com/AyushDodal/RagBOT">
+        rag chatbot</a>
         </p>
 
         
