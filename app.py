@@ -124,7 +124,7 @@ def main():
         <h1 class="hero-title">hi, i'm ayush, an<br> ai engineer from mumbai</h1>
         <p class="hero-about">I like building things that work — <br>data systems, 
         ai tools, and ideas that <br>actually ship.</p>
-        <p class="hero-edu">i pursued my master's from northeastern university in boston.</p>
+        <p class="hero-edu">i pursued my master's from <br>northeastern university in boston.</p>
         <p class="hero-projects-archive">projects archive</p>
         <p class="hero-projects-list">
         fitness tracking ai agent<br>
