@@ -118,16 +118,16 @@ def main():
 
     .github-contact{
         position: absolute;
+        left: 0px;
         width: 2vw;
         height: auto;
-        left: 300 px;
     }
 
     .linkedin-contact{
+        position: absolute;
+        left: 250px;
         width: 2vw;
         height: auto;
-        top: 190vh;
-        margin-left: 400px;
     }
 
     @keyframes animate-about{
