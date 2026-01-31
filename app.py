@@ -56,6 +56,77 @@ def main():
     }
 
 
+
+    
+
+    @keyframes animate-about{
+    from{
+    opacity:0
+    }
+    to{
+    opacity:1
+    }
+    }
+
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+    
+    st.markdown(
+    """
+    <div class="hero">
+        <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG">
+        
+        <h1 class="hero-title">hi, i'm ayush, an<br> ai engineer from mumbai</h1>
+        
+
+
+        
+
+        
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
+
+
+    
+    
+
+
+
+
+
+    
+
+   
+
+    
+    
+if __name__=="__main__": 
+    main()
+
+
+"""
+
+        <p class="hero-about">I like building things that work — <br>data systems, 
+        ai tools, and ideas that <br>actually ship.</p>
+
+        <p class="hero-edu">pursued my master's from northeastern university in boston.</p>
+
+        <p class="hero-projects-archive">projects archive</p>
+
+        <p class="hero-projects-list">
+        fitness tracking ai agent<br>
+        rag chatbot
+        </p>
+
+
     .hero-about{
         position: absolute;
         top: 30vh;
@@ -105,53 +176,7 @@ def main():
         animation-timeline: scroll();
     }
 
-    
-
-    @keyframes animate-about{
-    from{
-    opacity:0
-    }
-    to{
-    opacity:1
-    }
-    }
-
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-    
-    st.markdown(
-    """
-    <div class="hero">
-        <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG">
-        
-        <h1 class="hero-title">hi, i'm ayush, an<br> ai engineer from mumbai</h1>
-        
-
-        
-    </div>
-    """,
-    unsafe_allow_html=True
-)
 
 
 
-
-
-    
-    
-
-
-
-
-
-    
-
-   
-
-    
-    
-if __name__=="__main__": 
-    main()
+"""
