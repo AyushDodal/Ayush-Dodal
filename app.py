@@ -66,79 +66,6 @@ def main():
         pointer-events: none;
     }
 
-    
-
-    @keyframes animate-about{
-    from{
-    opacity:0
-    }
-    to{
-    opacity:1
-    }
-    }
-
-    </style>
-    """,
-    unsafe_allow_html=True
-)
-
-    
-    st.markdown(
-    """
-    <div class="hero">
-        <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG">
-        <h1 class="hero-title">hi, i'm ayush, an<br> ai engineer from mumbai</h1>
-        
-        <p class="hero-about">I like building things that work — <br>data systems, 
-        ai tools, and ideas that <br>actually ship.</p>
-        
-
-
-        
-
-        
-    </div>
-    """,
-    unsafe_allow_html=True
-)
-
-
-
-
-
-    
-    
-
-
-
-
-
-    
-
-   
-
-    
-    
-if __name__=="__main__": 
-    main()
-
-
-"""
-
-        
-
-        <p class="hero-edu">pursued my master's from northeastern university in boston.</p>
-
-        <p class="hero-projects-archive">projects archive</p>
-
-        <p class="hero-projects-list">
-        fitness tracking ai agent<br>
-        rag chatbot
-        </p>
-
-
-    
-    
     .hero-edu{
         position: absolute;
         top: 90vh;
@@ -177,6 +104,79 @@ if __name__=="__main__":
         animation: animate-about;
         animation-timeline: scroll();
     }
+    
+
+    @keyframes animate-about{
+    from{
+    opacity:0
+    }
+    to{
+    opacity:1
+    }
+    }
+
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+    
+    st.markdown(
+    """
+    <div class="hero">
+        <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG">
+        <h1 class="hero-title">hi, i'm ayush, an<br> ai engineer from mumbai</h1>
+        
+        <p class="hero-about">I like building things that work — <br>data systems, 
+        ai tools, and ideas that <br>actually ship.</p>
+        
+        <p class="hero-edu">i pursued my master's from northeastern university in boston.</p>
+
+        <p class="hero-projects-archive">projects archive</p>
+
+        <p class="hero-projects-list">
+        fitness tracking ai agent<br>
+        rag chatbot
+        </p>
+
+        
+
+        
+    </div>
+    """,
+    unsafe_allow_html=True
+)
+
+
+
+
+
+    
+    
+
+
+
+
+
+    
+
+   
+
+    
+    
+if __name__=="__main__": 
+    main()
+
+
+"""
+
+        
+
+        
+
+
+    
+    
 
 
 
