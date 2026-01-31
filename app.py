@@ -110,7 +110,6 @@ def main():
 
     .contact{
         position: absolute;
-        left: -100px;
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
@@ -118,7 +117,7 @@ def main():
 
     .insta-contact{
         position: absolute;
-        top: 210vh;
+        top: 205vh;
         left: 500px;
         width: 2vw;
         height: auto;
