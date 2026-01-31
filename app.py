@@ -109,9 +109,23 @@ def main():
 
 
     .insta-contact{
-        width: 1vw;
+        width: 2vw;
         height: auto;
         top: 190vh;
+    }
+
+    .github-contact{
+        width: 2vw;
+        height: auto;
+        top: 190vh;
+        left: 0 px;
+    }
+
+    .linkedin-contact{
+        width: 2vw;
+        height: auto;
+        top: 190vh;
+        left: 100px;
     }
 
     @keyframes animate-about{
@@ -146,6 +160,13 @@ def main():
     </div>
     <div class="insta-contact">
         <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/icons8-instagram-logo-94.png">
+    </div>
+    <div class="github-contact">
+        <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/icons8-github-logo-94.png">
+    </div>
+    <div class="linkedin-contact">
+        <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/icons8-linkedin-logo-94.png">
+    </div>
     """,
     unsafe_allow_html=True
 )
