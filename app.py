@@ -62,7 +62,8 @@ def main():
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
-        white-space: nowrap;   
+        white-space: nowrap;
+        pointer-events: none;
     }
 
     
