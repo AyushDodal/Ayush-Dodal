@@ -109,12 +109,14 @@ def main():
 
 
     .insta-contact{
+        position: absolute;
         width: 2vw;
         height: auto;
         
     }
 
     .github-contact{
+        position: absolute;
         width: 2vw;
         height: auto;
         margin-left: 200 px;
