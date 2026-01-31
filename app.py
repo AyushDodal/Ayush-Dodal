@@ -111,13 +111,13 @@ def main():
     .insta-contact{
         width: 2vw;
         height: auto;
-        top: 190vh;
+        
     }
 
     .github-contact{
         width: 2vw;
         height: auto;
-        top: 190vh;
+        
         left: 0 px;
     }
 
