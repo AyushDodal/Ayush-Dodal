@@ -110,8 +110,8 @@ def main():
 
     .contact{
         position: absolute;
-        top: 190vh;
-        left: 0px;
+        top: 200vh;
+        left: 10px;
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
