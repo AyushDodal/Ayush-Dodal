@@ -137,7 +137,7 @@ def main():
     .linkedin-contact{
         position: absolute;
         top: 205vh;
-        text-align: center;
+        margin-left: auto;
         width: 2vw;
         height: auto;
     }
