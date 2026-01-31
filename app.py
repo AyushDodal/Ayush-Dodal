@@ -108,6 +108,14 @@ def main():
     }
 
 
+    .contact{
+        position: absolute;
+        left: 250px;
+        color: black !important;
+        font-family: 'Courier Prime', monospace !important;
+        font-size: 60px !important;
+    }
+
     .insta-contact{
         position: absolute;
         left: 500px;
@@ -160,6 +168,7 @@ def main():
         rag chatbot</a>
         </p>
     </div>
+    <div class="contact">contact me!</div>
     <div class="insta-contact">
         <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/icons8-instagram-logo-94.png">
     </div>
