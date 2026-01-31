@@ -110,7 +110,6 @@ def main():
 
     .insta-contact{
         position: absolute;
-        top: 220vh;
         left: 500px;
         width: 2vw;
         height: auto;
