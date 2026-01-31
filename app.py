@@ -107,6 +107,13 @@ def main():
         text-decoration: underline;
     }
 
+
+    .insta-contact{
+        width: 1vw;
+        height: auto;
+        top: 190vh;
+    }
+
     @keyframes animate-about{
     from{
     opacity:0
@@ -136,11 +143,9 @@ def main():
         <a href="https://github.com/AyushDodal/RagBOT">
         rag chatbot</a>
         </p>
-
-        
-
-        
     </div>
+    <div class="insta-contact">
+        <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/icons8-instagram-logo-94.png">
     """,
     unsafe_allow_html=True
 )
