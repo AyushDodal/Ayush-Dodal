@@ -95,23 +95,23 @@ def main():
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
         animation: animate-on-scroll;
-        animation-timeline: scroll();
-        animation-range: entry 0% exit 100vh;
+        animation-timeline: view();
+        animation-range: entry 0% exit 50vh;
     }
     
     .hero-projects-list a {
         color: black;
         text-decoration: none;
         animation: animate-on-scroll;
-        animation-timeline: scroll();
-        animation-range: entry 0% exit 100vh;
+        animation-timeline: view();
+        animation-range: entry 0% exit 50vh;
     }
     
     .hero-projects-list a:hover {
         text-decoration: underline;
         animation: animate-on-scroll;
-        animation-timeline: scroll();
-        animation-range: entry 0% exit 100vh;
+        animation-timeline: view();
+        animation-range: entry 0% exit 50vh;
     }
 
 
