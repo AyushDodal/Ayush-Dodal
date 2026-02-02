@@ -94,17 +94,21 @@ def main():
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
-        animation: animate-about;
+        animation: animate-on-scroll;
         animation-timeline: scroll();
     }
     
     .hero-projects-list a {
         color: black;
         text-decoration: none;
+        animation: animate-on-scroll;
+        animation-timeline: scroll();
     }
     
     .hero-projects-list a:hover {
         text-decoration: underline;
+        animation: animate-on-scroll;
+        animation-timeline: scroll();
     }
 
 
@@ -142,7 +146,7 @@ def main():
         height: auto;
     }
 
-    @keyframes animate-about{
+    @keyframes animate-on-scroll{
     from{
     opacity:0
     }
