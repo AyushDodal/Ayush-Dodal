@@ -49,6 +49,7 @@ def main():
         pointer-events: none;
         animation: fadeIn;
         animation-duration: 1s;
+        animation-timing-function: ease-out;
     }
 
     .hero-about{
@@ -60,6 +61,10 @@ def main():
         font-size: 60px !important;
         white-space: nowrap;
         pointer-events: none;
+        animation: fadeIn;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+        animation-delay: 2s;
     }
 
     .hero-edu{
