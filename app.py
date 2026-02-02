@@ -47,8 +47,8 @@ def main():
         font-family: 'Courier Prime', monospace !important;
         white-space: nowrap;
         pointer-events: none;
-
-
+        animation: fadeIn;
+        animation-duration: 1s;
     }
 
     .hero-about{
@@ -157,6 +157,19 @@ def main():
     opacity:1
     }
     }
+
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(20px); /* Optional: add a slight upward movement */
+          }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+          }
+        }
+
 
     </style>
     """,
