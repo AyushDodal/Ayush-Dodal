@@ -101,14 +101,12 @@ def main():
     .hero-projects-list a {
         color: black;
         text-decoration: none;
-        animation: animate-on-scroll;
-        animation-timeline: scroll();
+
     }
     
     .hero-projects-list a:hover {
         text-decoration: underline;
-        animation: animate-on-scroll;
-        animation-timeline: scroll();
+
     }
 
 
