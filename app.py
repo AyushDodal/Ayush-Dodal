@@ -169,7 +169,11 @@ def main():
         <a href="https://github.com/AyushDodal/repai">
         fitness tracking ai agent</a><br>
         <a href="https://github.com/AyushDodal/RagBOT">
-        rag chatbot</a>
+        rag chatbot</a><br>
+        <a href="https://github.com/AyushDodal/AQI_Analyzer">
+        aqi analyzer</a><br>
+        <a href="https://github.com/AyushDodal/Heart-Disease-Classification">
+        heart disease classifier</a>
         </p>
     </div>
     <div class="contact">contact me!</div>
