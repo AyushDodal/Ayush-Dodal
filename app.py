@@ -92,11 +92,7 @@ def main():
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
         font-weight: 600;
-        animation: fadeIn;
-        animation-timeline: view();
-        animation-timing-function: ease-out;
-        animation-duration: 1s;
-        animation-fill-mode: backwards;
+
     }
 
     .hero-projects-list{
@@ -106,30 +102,18 @@ def main():
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
-        animation: fadeIn;
-        animation-timeline: view();
-        animation-timing-function: ease-out;
-        animation-duration: 1s;
-        animation-fill-mode: backwards;
+
     }
     
     .hero-projects-list a {
         color: black;
         text-decoration: none;
-        animation: fadeIn;
-        animation-timeline: view();
-        animation-timing-function: ease-out;
-        animation-duration: 1s;
-        animation-fill-mode: backwards;
+
     }
     
     .hero-projects-list a:hover {
         text-decoration: underline;
-        animation: fadeIn;
-        animation-timeline: view();
-        animation-timing-function: ease-out;
-        animation-duration: 1s;
-        animation-fill-mode: backwards;
+
     }
 
 
@@ -167,6 +151,25 @@ def main():
         height: auto;
     }
 
+    .scroller-container {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+      padding: 1rem 0;
+    }
+
+    .scroller-track {
+      display: flex;
+      gap: 40px;
+      animation: scroll-left 20s linear infinite;
+      align-items: center;
+    }
+
+    .scroller-item img {
+      width: 80px;
+      height: auto;
+    }
+
     @keyframes animate-on-scroll{
     from{
     opacity:0
@@ -188,6 +191,14 @@ def main():
           }
         }
 
+    @keyframes scroll-left {
+      from {
+        transform: translateX(0);
+      }
+      to {
+        transform: translateX(-50%);
+      }
+    }
 
     </style>
     """,
@@ -213,6 +224,11 @@ def main():
         <a href="https://github.com/AyushDodal/Heart-Disease-Classification">
         heart disease classifier</a>
         </p>
+        <div class="scroller-container">
+            <div class="scroller-track">
+                <div class="scroller-item"><img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/icons8-instagram-logo-94.png"></div>
+            </div>
+        </div>
     </div>
     <div class="contact">contact me!</div>
     <div class="insta-contact">
