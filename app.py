@@ -48,7 +48,7 @@ def main():
         white-space: nowrap;
         pointer-events: none;
         animation: fadeIn;
-        animation-duration: 1s;
+        animation-duration: 2s;
         animation-timing-function: ease-out;
         animation-fill-mode: backwards;
     }
@@ -63,7 +63,7 @@ def main():
         white-space: nowrap;
         pointer-events: none;
         animation: fadeIn;
-        animation-duration: 1s;
+        animation-duration: 2s;
         animation-timing-function: ease-out;
         animation-delay: 2s;
         animation-fill-mode: backwards;
@@ -180,7 +180,7 @@ def main():
     @keyframes fadeIn {
       from {
         opacity: 0;
-        transform: translateY(20px); /* Optional: add a slight upward movement */
+        transform: translateY(60px); /* Optional: add a slight upward movement */
           }
       to {
         opacity: 1;
