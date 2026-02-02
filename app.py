@@ -174,13 +174,19 @@ def main():
     </div>
     <div class="contact">contact me!</div>
     <div class="insta-contact">
-        <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/icons8-instagram-logo-94.png">
+        <a href="https://www.instagram.com/ayush_dodal/">
+            <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/icons8-instagram-logo-94.png">
+        </a>
     </div>
     <div class="github-contact">
-        <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/icons8-github-logo-94.png">
+        <a href="https://github.com/AyushDodal">
+            <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/icons8-github-logo-94.png">
+        </a>
     </div>
     <div class="linkedin-contact">
-        <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/icons8-linkedin-logo-48.png">
+        <a href="https://www.linkedin.com/in/ayush-dodal-b5646016b/">
+            <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/icons8-linkedin-logo-48.png">
+        </a>
     </div>
     """,
     unsafe_allow_html=True
