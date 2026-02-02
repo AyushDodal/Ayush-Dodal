@@ -50,6 +50,7 @@ def main():
         animation: fadeIn;
         animation-duration: 1s;
         animation-timing-function: ease-out;
+        animation-fill-mode: backwards;
     }
 
     .hero-about{
@@ -65,6 +66,7 @@ def main():
         animation-duration: 1s;
         animation-timing-function: ease-out;
         animation-delay: 2s;
+        animation-fill-mode: backwards;
     }
 
     .hero-edu{
@@ -101,7 +103,7 @@ def main():
         font-size: 60px !important;
         animation: animate-on-scroll;
         animation-timeline: view();
-        animation-range: entry 0% exit 35vh;
+        animation-range: entry 0% exit 20vh;
     }
     
     .hero-projects-list a {
@@ -109,14 +111,14 @@ def main():
         text-decoration: none;
         animation: animate-on-scroll;
         animation-timeline: view();
-        animation-range: entry 0% exit 35vh;
+        animation-range: entry 0% exit 20vh;
     }
     
     .hero-projects-list a:hover {
         text-decoration: underline;
         animation: animate-on-scroll;
         animation-timeline: view();
-        animation-range: entry 0% exit 35vh;
+        animation-range: entry 0% exit 20vh;
     }
 
 
