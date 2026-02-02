@@ -96,6 +96,7 @@ def main():
         font-size: 60px !important;
         animation: animate-on-scroll;
         animation-timeline: scroll();
+        animation-range: entry 0% exit 50vh;
     }
     
     .hero-projects-list a {
@@ -103,12 +104,14 @@ def main():
         text-decoration: none;
         animation: animate-on-scroll;
         animation-timeline: scroll();
+        animation-range: entry 0% exit 50vh;
     }
     
     .hero-projects-list a:hover {
         text-decoration: underline;
         animation: animate-on-scroll;
         animation-timeline: scroll();
+        animation-range: entry 0% exit 50vh;
     }
 
 
