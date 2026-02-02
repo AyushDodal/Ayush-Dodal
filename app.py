@@ -94,6 +94,7 @@ def main():
         font-weight: 600;
         animation: fadeIn;
         animation-timeline: view();
+        animation-timing-function: ease-out;
         animation-duration: 1s;
         animation-fill-mode: backwards;
     }
@@ -105,24 +106,30 @@ def main():
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
-        animation: animate-on-scroll;
+        animation: fadeIn;
         animation-timeline: view();
-        animation-range: entry 0% exit 5vh;
+        animation-timing-function: ease-out;
+        animation-duration: 1s;
+        animation-fill-mode: backwards;
     }
     
     .hero-projects-list a {
         color: black;
         text-decoration: none;
-        animation: animate-on-scroll;
+        animation: fadeIn;
         animation-timeline: view();
-        animation-range: entry 0% exit 5vh;
+        animation-timing-function: ease-out;
+        animation-duration: 1s;
+        animation-fill-mode: backwards;
     }
     
     .hero-projects-list a:hover {
         text-decoration: underline;
-        animation: animate-on-scroll;
+        animation: fadeIn;
         animation-timeline: view();
-        animation-range: entry 0% exit 5vh;
+        animation-timing-function: ease-out;
+        animation-duration: 1s;
+        animation-fill-mode: backwards;
     }
 
 
