@@ -94,13 +94,15 @@ def main():
         color: black !important;
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
-
+        animation: animate-on-scroll;
+        animation-timeline: scroll();
     }
     
     .hero-projects-list a {
         color: black;
         text-decoration: none;
-
+        animation: animate-on-scroll;
+        animation-timeline: scroll();
     }
     
     .hero-projects-list a:hover {
