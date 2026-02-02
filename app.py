@@ -92,6 +92,10 @@ def main():
         font-family: 'Courier Prime', monospace !important;
         font-size: 60px !important;
         font-weight: 600;
+        animation: fadeIn;
+        animation-timeline: view();
+        animation-duration: 1s;
+        animation-fill-mode: backwards;
     }
 
     .hero-projects-list{
