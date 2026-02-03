@@ -19,7 +19,6 @@ body {
 .hero-title {
   position: absolute;
   top: 1vh;
-  left: -350px;
   font-size: 105px;
   font-weight: 700;
   animation: fadeIn 2s ease-out backwards;
