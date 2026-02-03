@@ -1,18 +1,86 @@
-.scroll-watcher {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 6px;
-        width: 100%;
-        background: lime;
-        z-index: 9999;
-        transform-origin: left;
-        scale: 0 1;
+body {
+  margin: 0;
+  font-family: 'Courier Prime', monospace;
+}
 
-        animation: scroll-progress linear;
-        animation-timeline: scroll();
-    }
+.hero {
+  min-height: 200vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
 
-    @keyframes scroll-progress {
-        to { scale: 1 1; }
-    }
+.hero img {
+  width: 65vw;
+  opacity: 0.6;
+}
+
+.hero-title {
+  position: absolute;
+  top: 1vh;
+  left: -350px;
+  font-size: 105px;
+  font-weight: 700;
+  animation: fadeIn 2s ease-out backwards;
+}
+
+.hero-about {
+  position: absolute;
+  top: 30vh;
+  left: -350px;
+  font-size: 60px;
+  animation: fadeIn 2s ease-out 2s backwards;
+}
+
+.hero-projects-archive {
+  position: absolute;
+  top: 90vh;
+  left: -350px;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.hero-projects-list {
+  position: absolute;
+  top: 100vh;
+  left: -350px;
+  font-size: 60px;
+}
+
+.hero-projects-list a {
+  color: black;
+  text-decoration: none;
+}
+
+.hero-projects-list a:hover {
+  text-decoration: underline;
+}
+
+.contact {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 20vh;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin: 10vh 0;
+}
+
+.socials img {
+  width: 50px;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(60px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
