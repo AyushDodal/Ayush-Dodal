@@ -19,6 +19,7 @@ body {
 .hero-title {
   position: absolute;
   top: 1vh;
+  left: 5vw;
   font-size: 105px;
   font-weight: 700;
   animation: fadeIn 2s ease-out backwards;
@@ -27,7 +28,7 @@ body {
 .hero-about {
   position: absolute;
   top: 30vh;
-  left: -350px;
+  left: 5vw;
   font-size: 60px;
   animation: fadeIn 2s ease-out 2s backwards;
 }
@@ -35,7 +36,7 @@ body {
 .hero-projects-archive {
   position: absolute;
   top: 90vh;
-  left: -350px;
+  left: 5vw;
   font-size: 60px;
   font-weight: 600;
 }
@@ -43,7 +44,7 @@ body {
 .hero-projects-list {
   position: absolute;
   top: 100vh;
-  left: -350px;
+  left: 5vw;
   font-size: 60px;
 }
 
