@@ -9,12 +9,32 @@
   <link href="https://fonts.cdnfonts.com/css/courier-prime" rel="stylesheet">
 </head>
 
+<script>
+  const texts = document.querySelectorAll(".glitch-text");
+
+  setInterval(() => {
+    texts.forEach(el => {
+      const chars = el.innerText.split("");
+      const newText = chars.map(c => {
+        if (/[a-zA-Z]/.test(c) && Math.random() < 0.15) {
+          return c === c.toLowerCase()
+            ? c.toUpperCase()
+            : c.toLowerCase();
+        }
+        return c;
+      }).join("");
+      el.innerText = newText;
+    });
+  }, 1000);
+</script>
+
+  
 <body>
 
   <div class="hero">
     <img src="https://raw.githubusercontent.com/AyushDodal/Ayush-Dodal/main/images/IMG_6667.JPG" />
 
-    <h1 class="hero-title">
+    <h1 class="hero-title glitch-text">
       hi, i'm ayush, an<br> ai engineer from mumbai
     </h1>
 
